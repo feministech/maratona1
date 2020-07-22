@@ -4,3 +4,45 @@
   --lila: #b7a7d0;
   --mint: #c8e6dc;
 }
+
+body {
+  text-align: center;
+  background-color: var(--teal);
+  font-family: "Roboto", sans-serif;
+}
+
+h1 {
+  font-family: "Press Start 2P", cursive;
+  color: var(--roxo);
+  margin: 40px;
+}
+
+h3 {
+  font-weight: bold;
+}
+
+.crono {
+  background-color: var(--mint);
+  margin: 0 auto;
+  width: 30%;
+  padding: 20px;
+}
+
+.picture {
+  width: 200px;
+  border-radius: 50%;
+}
+
+.holder {
+  display: flex;
+  margin: 50px auto;
+  justify-content: center;
+  background-color: var(--lila);
+  width: 70%;
+  padding: 50px;
+}
+
+.streamer {
+  color: var(--roxo);
+  font-size: 32px;
+}
