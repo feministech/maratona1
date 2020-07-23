@@ -12,12 +12,18 @@ body {
 }
 
 h1 {
+  font-size: 22px;
+  line-height: 33px;
+}
+
+h1,
+h2 {
   font-family: "Press Start 2P", cursive;
   color: var(--roxo);
   margin: 40px;
 }
 
-h3 {
+span {
   font-weight: bold;
 }
 
@@ -26,6 +32,15 @@ h3 {
   margin: 0 auto;
   width: 30%;
   padding: 20px;
+  border-radius: 20px;
+}
+
+ul {
+  text-align: left;
+}
+
+li {
+  padding: 10px;
 }
 
 .picture {
@@ -38,7 +53,7 @@ h3 {
   margin: 50px auto;
   justify-content: space-around;
   background-color: var(--lila);
-  width: 60%;
+  width: 50%;
   padding: 50px;
   box-shadow: 2px 2px 2px var(--roxo);
   border-radius: 20px;
@@ -48,4 +63,27 @@ h3 {
   color: var(--roxo);
   font-size: 32px;
   margin: 30px;
+}
+
+.infos {
+  width: 50%;
+}
+
+@media only screen and (max-width: 600px) {
+  .crono {
+    width: 80%;
+  }
+
+  .holder {
+    flex-wrap: wrap;
+    width: 65%;
+  }
+
+  .infos {
+    width: 100%;
+  }
+
+  .picture {
+    margin: 30px auto;
+  }
 }
