@@ -9,6 +9,7 @@ body {
   text-align: center;
   background-color: var(--teal);
   font-family: "Roboto", sans-serif;
+  line-height: 22px;
 }
 
 h1 {
